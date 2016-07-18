@@ -235,6 +235,7 @@ else
 	# Generate server.conf
 	echo "port $PORT
 proto udp
+tls-server
 dev tun
 sndbuf 0
 rcvbuf 0
